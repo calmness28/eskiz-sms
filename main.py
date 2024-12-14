@@ -10,7 +10,7 @@ async def send_sms(mobile_phone: str, message: str):
     payload = {
         "mobile_phone": mobile_phone,  # sms junatitmoqchi bugan telefon raqamiz
         "message": message,  # SMS
-        "sender": "eskiz",  # nikname (default=4546)
+        "from": "eskiz",  # nikname (default=4546)
     }
 
     try:
